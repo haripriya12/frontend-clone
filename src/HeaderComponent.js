@@ -67,12 +67,17 @@ import {
     
 
       render() {
-        return(
+        return( 
         <div className="Hmain-container">
           <div className="det1">
             <div className="img1">
             <Link to='/'>
               <img src={require('./images/final.png')} style={{color: 'black',width:'200px', height:'150px'}} alt="avatar" />
+            </Link>
+            </div>
+            <div className="img2">
+            <Link to='/'>
+              <img src={require('./images/final.png')} style={{color: 'black'}} alt="avatar" />
             </Link>
             </div>
             <div className="logo" style={{fontSize: '130%', fontStretch: 'ultra-condensed', fontFamily: 'italic', width: '60%'}}>
@@ -88,7 +93,7 @@ import {
             <Link className="nav-link" to='/login'>
                 <a style={{textDecorationLine: 'none'}} id="Signin" onClick={this.handleSignin}>signin</a> 
             </Link>  
-            </div> &nbsp;&nbsp;&nbsp;
+            </div> &nbsp;
             <div className="login-form1">
             <Link className="nav-link" to='/post'>         
                 <a style={{textDecorationLine: 'none'}} className="rect">Add Post</a>

@@ -106,8 +106,10 @@ import HeaderComponent from './HeaderComponent';
           //  return <Redirect to={{pathname: '/comment',state:{p:this.state.data[0].id}}}/>
         }
         return(
+            <div>
+                <HeaderComponent></HeaderComponent>
             <div className="postcontainer">
-                 <HeaderComponent></HeaderComponent>
+                 
              <form onSubmit={this.handleSubmit} method="post">   
             <div className="postline1">
                 
@@ -159,7 +161,7 @@ import HeaderComponent from './HeaderComponent';
             </div>
         </div> 
         </form>
- 
+        </div>
         </div> 
         );
       }
