@@ -1,0 +1,153 @@
+@media screen and (min-width:800px) {
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #fff;
+}
+.lcontainer{
+    margin: 4% 18% 4% 18%; 
+} 
+.logcontainer3{
+    margin: auto;
+    text-align: center;
+}
+.card{
+  box-shadow: 5px 4px 18px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5% 10% 5% 10%;
+}
+.close {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.data1 {
+    margin-bottom: 8%;
+}
+textarea[type="text1"]::placeholder{
+    text-align: left;
+    font-size: 28px;
+    font-style: inherit;
+}
+.lmail{
+    border-radius:2px;
+    height: 6%; 
+}
+  input[type=logintext], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[id=userlogin] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-content: center;
+  }
+  input[id=userlogin]:hover {
+    background-color: #45a049;
+  }
+  .Noaccount {
+      display: flex;
+      flex-direction: row;
+      font-size: 20px;
+      margin-left: 19%;
+  }
+  /* .fylo {
+    font-size: 20px;
+    margin-left: 19%;
+} */
+}
+  
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background: #fff;
+    }
+    .lcontainer {
+      margin: 8% 4% 4% 4%;
+    }
+    .logcontainer3{
+        margin: auto;
+        text-align: center;
+    }
+    .card{
+      box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.2);
+      transition: 0.3s;
+      padding: 5% 10% 5% 10%;
+    }
+    .close { 
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .data1 {
+        margin-bottom: 8%;
+    }
+    textarea[type="text1"]::placeholder{
+        text-align: left;
+        font-size: 20px;
+        font-style: inherit;
+    }
+    .lmail{
+        border-radius:2px;
+        height: 6%;
+    }
+      input[type=logintext], select {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=password], select {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[id=userlogin] {
+        width: 30%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        align-content: center;
+      }
+      input[id=userlogin]:hover {
+        background-color: #45a049;
+      }
+      .Noaccount {
+          display: flex;
+          flex-direction: row;
+          font-size: 20px;
+          margin-left: 15%;
+      }
+}

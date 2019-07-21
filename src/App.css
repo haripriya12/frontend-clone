@@ -1,0 +1,242 @@
+@media screen and (min-width:800px){
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background: #fff;
+    }
+  .container{   
+      margin: 5% 7% 1% 7%;
+  }
+  .Hmain-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; 
+      flex-wrap: wrap;
+      background-color: rgb(156, 154, 154);
+  } 
+  .det{
+      display: flex;
+      flex-direction: row;
+      padding-right: 50px;
+      /* justify-content: space-between; */
+  }
+  .det1{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+   
+  }
+  .logo{ 
+      /* font-family: Stencil Std, fantasy; */
+      font-size: 15px;
+      font-weight: bold;
+  }
+  h1.learnovita {
+      font-family: Apple Chancery, cursive;
+  }
+  .mem{
+      justify-content: space-around; 
+      font-family: sans-serif,Arial;
+      font-size: 19px;
+      height: 30px;
+      font-weight: bold;
+  }
+  .mem>a{
+      color:  rgb(16, 17, 16);
+      text-decoration: none;
+  }
+  .login-form>a{
+      font-family: sans-serif,Arial;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: -0.05em;
+      color:  rgb(44, 61, 219);
+  }
+  .login-form1>a{
+    font-family: sans-serif,Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    color:  rgb(44, 61, 219);
+}
+  .rect{
+      border: 2px solid rgb(29, 38, 112);
+      padding: 4px 4px;
+      border-radius: 10%;
+  }
+  .tags{      
+      display: flex;
+      flex-direction: row;
+      font-size: 20px;
+  }
+  .tags>a{
+      color: rgb(63, 61, 61);
+      text-decoration: none;
+      padding: 5px;
+  }
+  .container1{
+    width: auto;
+    margin: auto;
+    margin: 1% 3% 3% 3%;
+}
+  .container2{
+      width: auto;
+      margin: auto;
+      margin: 5% 3% 3% 3%;
+  }
+  .mainb{
+      font-size: 16px;
+  }
+  .b1{
+      color: rgb(24, 23, 23);
+      font-weight: 600%;
+      letter-spacing: -0.0001em;
+      font-size: 120%;
+      font-family: Impact, Luminari;
+      line-height: 160%;
+  }
+  .auth{
+      color: rgb(48, 46, 46);
+      letter-spacing: -0.001em;
+      font-size: 100%;
+      font-weight: 520;
+  }
+  .new{
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      flex-wrap: wrap;
+  }
+  .pub{
+      display: flex;
+      flex-direction: column;
+      flex: 4;
+      color: rgb(49, 47, 47);
+      letter-spacing: -0.0001em;
+      font-size: 20px;
+
+  }
+  .resp>i {
+      font-size: 24px;
+      color: rgb(48, 46, 46);
+  }
+  .tags a:hover {
+      color: rgba(10, 10, 10, 0.986);
+      text-decoration-line: underline;
+    }
+    .nav-link  {
+        text-decoration: none;
+        color: black;
+    }
+  }
+
+@media screen and (max-width:800px){
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background: #fff;
+    }
+    .container{   
+        margin: 3% 1% 3% 1%;
+    }
+    .Hmain-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        flex-wrap: wrap;
+    } 
+    .det{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .det1{
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+    }
+    .logo>h1{ 
+        font-family: sans-serif,Arial;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .mem{
+        display: none;
+    }
+    .login-form{
+        font-family: sans-serif,Arial;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: -0.05em;
+    }
+    .login-form1{
+      font-family: sans-serif,Arial;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: -0.05em;
+  }
+    .rect{
+        border: 2px solid rgb(106, 185, 103);
+        padding: 5px 5px;
+        border-radius: 10%;
+    }
+  .tags{
+      margin-top: 5%;
+      display: flex;
+      flex-direction: row;
+      font-size: 25px;
+  }
+  .tags>a{
+      color: rgb(15, 13, 13);
+      text-decoration: none;
+      padding: 4px;
+  }
+  .t1{
+      display: none;
+  }
+  .container2{
+    width: auto;
+    margin: auto;
+    padding: 1% 3% 3% 3%;
+}
+  .para{
+      margin-top: 50px;
+  }
+  .mainb{
+      font-size: 10px;
+  }
+  .b1{
+      color: rgb(95, 92, 92);
+      letter-spacing: -0.0001em;
+      font-size: 20px;
+  }
+  .auth{
+      color: rgb(48, 46, 46);
+      letter-spacing: -0.001em;
+      font-size: 20px;
+  }
+  .pub{
+      color: rgb(95, 92, 92);
+      letter-spacing: -0.0001em;
+      font-size: 20px;
+  }
+  .new{
+      display: flex;
+      flex-direction: row;
+  }
+  .pub{
+      display: flex;
+      flex: 4;
+  }
+  .tags a:hover {
+      color: rgba(10, 10, 10, 0.986);
+      text-decoration-line: underline;
+  } 
+  .nav-link  {
+    text-decoration: none;
+    color: black;
+}   
+}
