@@ -100,8 +100,8 @@ class DataComponent extends Component {
 
                 <form onSubmit={this.handleSubmit} method="post">
 
-                    <div className="dline2">
-                        <textarea type="text" className="textbox" name="commentData" onChange={this.handleCommentdataChange} type="text" id="mytext" rows="6" cols="55" placeholder="&#128172; Write a response" />
+                    <div className="dline2"> 
+                        <textarea type="text" className="textbox" name="commentData" onChange={this.handleCommentdataChange} type="text" id="mytext" rows="3" cols="55" placeholder="&#128172; Write a response" />
 
                     </div>
                     <input className="submitreplycom" id="submitreplycom" type="submit" value="Publish your comment" />
@@ -146,23 +146,6 @@ class DataComponent extends Component {
 
 
 class Comment extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         data: [{
-    //             commentBy: "...",
-    //             commentData: "...",
-    //             createdAt: "...",
-    //             userId: '',
-    //             user: {
-    //                 email: "...",
-    //                 userName: "...",
-    //                 image: "..."
-    //             }
-    //         }]
-
-    //     }
-    // }
 
     render() {
         var Date = this.props.comment.createdAt
@@ -173,7 +156,9 @@ class Comment extends Component {
                 <div className="dcard2">
                     <div className="dprofile">
                         <div className="img">
-                            <img src={this.props.comment.user.image} className="dimagestyle" style={{ borderRadius: "50% 50%" }} alt="no image available" />
+                        {/* <img src={this.props.comment.user.image} className="dimagestyle" style={{ borderRadius: "50% 50%" }} alt ="upload image" />  */}
+                        <img id="img" src={this.props.comment.user.image} className="dimagestyle" style={{ borderRadius: "50% 50%" }} onError={(e) => { e.target.onerror = null; e.target.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThPJK6ff406WB_UyXBZbJbNuwCIlT0zCkGKEihcibm9W27ZD5G" }}></img>
+                        {/* alt img={require('./images/profile2.png')} */}
                         </div>
                         &nbsp;
                     <div className="dpname" id="post1">

@@ -40,7 +40,7 @@ import {
         document.getElementById("welcome").innerHTML= "Welcome"+ " "+ window.localStorage.getItem("userName");
       } else {
         document.getElementById('Signin').innerHTML = "Sign in"
-        document.getElementById("welcome").style.display="none"
+        //document.getElementById("welcome").innerHTML= "BECOME A MEMBER"
         // this.setState({redirect: false})
       }
      
